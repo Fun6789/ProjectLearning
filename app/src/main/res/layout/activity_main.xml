@@ -15,6 +15,44 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Click Me!"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="40dp"
         android:layout_gravity="center"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:backgroundTint="#ADD8E6"
+        android:layout_margin="50dp"
+        android:id="@+id/website"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:text="Open website" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:backgroundTint="#ADD8E6"
+        android:layout_gravity="center"
+        android:id="@+id/camera"
+        android:layout_marginTop="100dp"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:text="Open camera" />
+    </androidx.cardview.widget.CardView>
 </LinearLayout>
